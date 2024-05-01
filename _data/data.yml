@@ -42,20 +42,7 @@ career-profile:
        - Passionate and driven financial engineering student with extensive quantitative analysis experience.
        - Proficient in risk assessment and portfolio construction, having contributed to significant portfolio volatility reductions.
        - Skilled in advanced programming languages, including Python, R, and C++, and familiar with industry-standard tools such as Bloomberg and Thomson Reuters.
-education:
-    title: Education
-    info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+
 education:
     title: Education
     info:
@@ -104,26 +91,6 @@ experiences:
             - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
             - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%
             
-experiences:
-    - role: Bond Portfolio Analysis Intern
-      time: Dec 2023 - Jan 2024
-      company: PICC Asset Management
-      details: | 
-        - Conducted risk assessments and drafted strategic portfolio plans for fixed-income securities.
-
-    - role: Quantitative Analyst Intern
-      time: Nov 2023 - Dec 2023
-      company: Icarus Fund
-      details: | 
-        - Refined financial models and enhanced stock selection algorithms using Python.
-
-    - role: Quant Investment Intern
-      time: Jul 2021 - Aug 2021
-      company: Galaxy Jinhui Securities Asset Management
-      details: | 
-        - Quantitative Analysis: Implemented and enhanced the Black-Scholes Model using Python with a Jump Diffusion Process for improved accuracy in pricing vanilla equity options.
-        - Machine Learning: Implemented PCA and Random Forest model to select key features out of 1000 idiosyncratic and market factors (e.g. EPS, GDP), achieving an IR of 1.09 on OS backtesting.
-        - Financial Engineering: Conducted Monte Carlo Simulations to evaluate different market scenarios, updating model parameters based on the latest market data for accurate risk management and strategic investment decisions.
 
 projects:
     title: Projects
