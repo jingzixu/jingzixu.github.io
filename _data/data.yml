@@ -55,86 +55,61 @@ career-profile:
        - Proficient in risk assessment and portfolio construction, having contributed to significant portfolio volatility reductions.
        
        - Skilled in advanced programming languages, including Python, R, and C++, and familiar with industry-standard tools such as Bloomberg and Thomson Reuters.
-
-
-data:
-  education:
+education:
+  title: Education
+  info:
     - degree: Master of Engineering in Financial Engineering
       university: Cornell University, College of Engineering
-      time: "Current student"
+      time: Current student
       details: |
-        - GPA: 3.74
-        - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.
-        
+        GPA: 3.74. Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation. These courses involve extensive quantitative analysis, risk assessment, and portfolio construction.
+          - Developed sophisticated financial models and simulations.
+          - Engaged in advanced research and applications in financial markets.
+    
     - degree: B.S. in Applied and Computational Mathematics
       university: University of Southern California
-      time: "Aug 2021 - May 2023"
+      time: Aug 2021 - May 2023
       details: |
-        - Magna Cum Laude
-        - Dean's List, GPA: 3.79
-        - Relevant coursework included Mathematical Finance and Econometrics.
-        
+        Graduated Magna Cum Laude, GPA: 3.79. Coursework included Mathematical Finance and Econometrics, providing a strong foundation in financial analysis, statistical methods, and mathematical modeling.
+          - Honored on the Dean's List for exceptional academic performance.
+          - Participated in complex projects involving data analysis and modeling.
+    
     - degree: Mathematics and Economics
       university: University of Maryland, College Park
-      time: "Aug 2018 - May 2021"
+      time: Aug 2018 - May 2021
       details: |
-        - Dean’s List, GPA: 3.875
-        - Courses included Optimization, Object-Oriented Programming in C++.
+        Dean’s List, GPA: 3.875. This program combined rigorous mathematics with economic theory, enhancing my analytical and problem-solving skills.
+        - Courses included Optimization, Object-Oriented Programming in C++, and Econometrics.
+        - Engaged in statistical research and model development.
 
-# education:
-    # - degree: Master of Engineering in Financial Engineering
-      # university: Cornell University, College of Engineering
-      # time: Current student
-      # details: |
-        # - GPA：3.74
-        # - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.     
-        
-    # - degree:  B.S. in Applied and Computational Mathematics
-      # university: University of Southern California
-      # time: Aug 2021 - May 2023
-      # details: |
-        # - Magna Cum Laude
-        # - Dean's List, GPA：3.79
-        # - Relevant coursework included Mathematical Finance and Econometrics.
-        
-    # - degree:  Mathematics and Economics
-      # university: University of Maryland, College Park
-      # time: Aug 2018 - May 2021
-      # details: |
-        # - Dean’s List, GPA: 3.875.
-        # - Courses included Optimization, Object-Oriented Programming in C++.
-              
 experiences:
-    - role: Bond Portfolio Analysis Intern
-      time: Dec 2023 - Jan 2024
-      company: PICC Asset Management
-      details: | 
-        - Risk Assessment: Conducted risk assessments on fixed-income securities, contributing to the development of strategies that potentially reduce portfolio volatility by 12%.
-        - Portfolio Construction: Drafted a portfolio plan which consist of convertible bonds, national bonds and provincial bonds, fulfilling clients’ investment targets.
-    - role: Quantitative Analyst Intern
-      time: Nov 2023 - Dec 2023
-      company: Icarus Fund
-      details: | 
-        - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
-        - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%.
-    - role: Quant Investment Intern
-      time: Jul 2021 - Aug 2021
-      company: Galaxy Jinhui Securities Asset Management
-      details: |
-        - Quantitative Analysis: Implemented and enhanced the Black-Scholes Model using Python with a 
-        Jump Diffusion Process for improved accuracy in pricing vanilla equity options.
-        - Machine Learning: Implemented PCA and Random Forest model to select key features out of 1000 
-        idiosyncratic and market factors (e.g. EPS, GDP), achieving an IR of 1.09 on OS backtesting.
-        - Financial Engineering: Conducted Monte Carlo Simulations to evaluate different market scenarios, 
-        updating model parameters based on the latest market data for accurate risk management 
-        and strategic investment decisions.
-    - role: Teaching Assistant
-      time: Aug 2020 - Dec 2020
-      company: University of Maryland, College Park
-      details: |
-        - Course: Introduction to Statistical Computing with SAS
-        - Statistical Foundation: Guided junior students through key statistical concepts, and trained 
-        their skills in interoperating advanced additional statistical concepts like R-squared, P-values, and A/B testing
+    title: Experiences
+    info:
+      - role: Bond Portfolio Analysis Intern
+        time: Dec 2023 - Jan 2024
+        company: PICC Asset Management
+        details: |
+          - Risk Assessment: Conducted risk assessments on fixed-income securities, contributing to the development of strategies that potentially reduce portfolio volatility by 12%.
+          - Portfolio Construction: Drafted a portfolio plan which consist of convertible bonds, national bonds and provincial bonds, fulfilling clients’ investment targets.
+      - role: Quantitative Analyst Intern
+        time: Nov 2023 - Dec 2023
+        company: Icarus Fund
+        details: |
+          - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
+          - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%.
+      - role: Quant Investment Intern
+        time: Jul 2021 - Aug 2021
+        company: Galaxy Jinhui Securities Asset Management
+        details: |
+          - Quantitative Analysis: Implemented and enhanced the Black-Scholes Model using Python with a Jump Diffusion Process for improved accuracy in pricing vanilla equity options.
+          - Machine Learning: Implemented PCA and Random Forest model to select key features out of 1000 idiosyncratic and market factors (e.g. EPS, GDP), achieving an IR of 1.09 on OS backtesting.
+          - Financial Engineering: Conducted Monte Carlo Simulations to evaluate different market scenarios, updating model parameters based on the latest market data for accurate risk management and strategic investment decisions.
+      - role: Teaching Assistant
+        time: Aug 2020 - Dec 2020
+        company: University of Maryland, College Park
+        details: |
+          - Course: Introduction to Statistical Computing with SAS
+          - Statistical Foundation: Guided junior students through key statistical concepts, and trained their skills in interoperating advanced additional statistical concepts like R-squared, P-values, and A/B testing
     
 projects:
     title: Projects
