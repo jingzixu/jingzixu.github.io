@@ -50,14 +50,15 @@ education:
         university: Cornell University, College of Engineering
         time: Aug 2023 - Dec 2024
         details: |
+          - GPA：3.74
           - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.
-          - Achieved a GPA of 3.74.
+          
 
       - degree: B.S. in Applied and Computational Mathematics
         university: University of Southern California
         time: Aug 2021 - May 2023
         details: |
-          - Graduated Magna Cum Laude with a GPA of 3.79.
+          - Magna Cum Laude, GPA：3.79
           - Relevant coursework included Mathematical Finance and Econometrics.
 
       - degree: Mathematics and Economics
