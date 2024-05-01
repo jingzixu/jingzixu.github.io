@@ -57,29 +57,52 @@ career-profile:
        - Skilled in advanced programming languages, including Python, R, and C++, and familiar with industry-standard tools such as Bloomberg and Thomson Reuters.
 
 
-
-education:
+data:
+  education:
     - degree: Master of Engineering in Financial Engineering
       university: Cornell University, College of Engineering
-      time: Current student
+      time: "Current student"
       details: |
-        - GPA：3.74
-        - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.     
+        - GPA: 3.74
+        - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.
         
-    - degree:  B.S. in Applied and Computational Mathematics
+    - degree: B.S. in Applied and Computational Mathematics
       university: University of Southern California
-      time: Aug 2021 - May 2023
+      time: "Aug 2021 - May 2023"
       details: |
         - Magna Cum Laude
-        - Dean's List, GPA：3.79
+        - Dean's List, GPA: 3.79
         - Relevant coursework included Mathematical Finance and Econometrics.
         
-    - degree:  Mathematics and Economics
+    - degree: Mathematics and Economics
       university: University of Maryland, College Park
-      time: Aug 2018 - May 2021
+      time: "Aug 2018 - May 2021"
       details: |
-        - Dean’s List, GPA: 3.875.
+        - Dean’s List, GPA: 3.875
         - Courses included Optimization, Object-Oriented Programming in C++.
+
+# education:
+    # - degree: Master of Engineering in Financial Engineering
+      # university: Cornell University, College of Engineering
+      # time: Current student
+      # details: |
+        # - GPA：3.74
+        # - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.     
+        
+    # - degree:  B.S. in Applied and Computational Mathematics
+      # university: University of Southern California
+      # time: Aug 2021 - May 2023
+      # details: |
+        # - Magna Cum Laude
+        # - Dean's List, GPA：3.79
+        # - Relevant coursework included Mathematical Finance and Econometrics.
+        
+    # - degree:  Mathematics and Economics
+      # university: University of Maryland, College Park
+      # time: Aug 2018 - May 2021
+      # details: |
+        # - Dean’s List, GPA: 3.875.
+        # - Courses included Optimization, Object-Oriented Programming in C++.
               
 experiences:
     - role: Bond Portfolio Analysis Intern
