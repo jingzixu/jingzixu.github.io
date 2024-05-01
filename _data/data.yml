@@ -1,115 +1,293 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
 sidebar:
-    position: right # position of the sidebar : left or right
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: False # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Jingzi Xu
-    tagline: Master of Engineering in Financial Engineering at Cornell University
-    avatar: profile.jpg  # Update with your actual image in /assets/images/
+    name: Yankai Feng
+    tagline: A Student at the University of Toronto
+    avatar: profile11.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: jx379@cornell.edu
-    phone: 213-234-8259
-    linkedin: jingzi-xu
-    github: jingzixu  # Update this with your actual GitHub username
+    email: yankai0310@gmail.com
+    phone: 647-809-0310
+    citizenship: 
+    website: #do not add http://
+    linkedin: Yankai-Feng
+    xing:
+    github:
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    pdf: https://drive.google.com/file/d/1pMPfulbB8LneELP-7xNc78BKwvt-2LsP/view?usp=sharing
 
     languages:
-      title: Languages
-      info:
-        - idiom: Mandarin
-          level: Native
-        - idiom: English
-          level: Professional
-  
-     interests:
-       title: Interests
-       info:
-         - item: Clarinet
-         - item: Hiking
-         - item: Cycling
-         - item: Tennis
-         - item: Formula One
+      - idiom: Mandarin
+        level: Native
 
+      - idiom: English
+        level: Professional
+
+      #- idiom:
+        #level: 
+
+    interests:
+      - item: Travel
+        link: https://yankai0414.wixsite.com/interests/travel
+
+      - item: Cooking
+        link: https://yankai0414.wixsite.com/interests/cooking
+
+      - item: Photograph
+        link: https://yankai0414.wixsite.com/interests/photograph
 
 career-profile:
     title: Career Profile
     summary: |
-       - Passionate and driven financial engineering student with extensive quantitative analysis experience.
-       - Proficient in risk assessment and portfolio construction, having contributed to significant portfolio volatility reductions.
-       - Skilled in advanced programming languages, including Python, R, and C++, and familiar with industry-standard tools such as Bloomberg and Thomson Reuters.
+       - 4 year of experience in executing data-driven solutions to increase efficiency, 
+       accuracy and utility of internal data processing. 
+       
+       - 3+ years of experience in strategizing, interpreting and effectively analyzing 
+       an assort data attributes in streamlining the insight conversion process through 
+       leveraging various data languages such as R and Python.
+       
+       - Experienced at creating data regression models using predictive data modeling 
+       and analyzing data mining algorithms to deliver insights and implement action-oriented 
+       solutions to complex business problems.
+
+       - Exceptional ability to identify data attributes based on business needs, simultaneously 
+       being able to extract and manipulate large sets of raw data from multiple platforms to derive 
+       for meaningful insights.
+       
+       - Results oriented with a team-player frame of mind, providing support from a 
+       data analytical aspect in achieving goals that align with the holistic organizational mission.
+       
+       - Seeks for a constant state of self-improvement for professional development, 
+       to maintain an inclusive mentality from a proficiency standpoint by proactively 
+       learning techniques for data analysis.
+       
+
 
 education:
-    - degree: Master of Engineering in Financial Engineering
-      university: Cornell University, College of Engineering
-      time: Aug 2023 - Dec 2024
+    - degree: Master of Science in Biostatistics
+      university: University of Toronto - St. George Campus
+      time: Incoming
       details: |
-          - GPA：3.74
-          - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.
+          - Laboratory in Statistical Design and Analysis
+          - Categorical Data Analysis
+          - Mathematical Foundations of Biostatistics
+          - Introduction to Statistical Methods for Clinical Trials
+          - Applied Machine Learning for Health Data
+          - Introduction to Public Health
           
-    - degree: B.S. in Applied and Computational Mathematics
-      university: University of Southern California
-      time: Aug 2021 - May 2023
+    - degree: BSc Applied Mathematics Specialist & Statistics Major
+      university: University of Toronto - St. George Campus
+      time: 2019 - 2023
       details: |
-          - Magna Cum Laude, GPA：3.79
-          - Relevant coursework included Mathematical Finance and Econometrics.
-
-    - degree: Mathematics and Economics
-      university: University of Maryland, College Park
-      time: Aug 2018 - May 2021
-      details: |
-          - Dean’s List, GPA: 3.875.
-          - Courses included Optimization, Object-Oriented Programming in C++.
-
+        - Honourable Mention Best Statistical Analysis at DataFest@UofT 2022
+        - cGPA: 3.63/4.0 (High Distinction)
+        - Dean's List in 2022
+        - Dean's List in 2021
+        - Dean's List in 2020
+          - Methods for Multivariate Data (GPA 4.0/4.0)
+          - Time Series Analysis (GPA 4.0/4.0)
+          - Data Analysis II (GPA 4.0/4.0)
+          - Probability I (GPA 4.0/4.0) 
+          - Methods of Data Analysis I (GPA 4.0/4.0)
+          - Probability and Statistics I (GPA 3.7/4.0)
+          - STAT Reasoning (GPA 3.7/4.0)
+          - Survey Sam & Obs Data (GPA 3.7/4.0)
+          - Introduction to Real Analysis (GPA 4.0/4.0)
+          - Linear Algebra II (GPA 4.0/4.0)
+          - Calculus Sci II (GPA 4.0/4.0)
+          - Abstract Mathematics (GPA 4.0/4.0)
+          - Groups and Symmetries (GPA 4.0/4.0)
+          - Ordinary Diff Equat (GPA 4.0/4.0)
+          - Complex Variables (GPA 3.7/4.0)
+        
 experiences:
     - role: Practicum Student
       time: Oct 2023 - Present
       company: Lunenfeld-Tanenbaum Research Institute Sinai Health
       details: | 
-        - Risk Assessment: Conducted risk assessments on fixed-income securities, contributing to the development of strategies that potentially reduce portfolio volatility by 12%.
-        - Portfolio Construction: Drafted a portfolio plan which consist of convertible bonds, national bonds and provincial bonds, fulfilling clients’ investment targets.
-            
-    - role: Quantitative Analyst Intern
-      time: Nov 2023 - Dec 2023
-      company: Icarus Fund
+        - Conducted in-depth analysis of longitudinal serological profiles using linear mixed effects models.
+        - Applied quantile regression to identify distinct groups of serological profiles among COVID-19 patients.
+        - Actively collaborated with geneticists, clinicians, and other researchers to incorporate host and virus genetics 
+        into the modeling process.
+    - role: Consultant Intern
+      time: May 2021 - Aug 2021
+      company: Shanghai Pera Global Corporation Ltd
+      details: | 
+        - Explored and Collected information on 17,444 enterprises that operates in 
+        17 industries such as automobile and fuel cells, through web crawler, 
+        cold call and other means. Using R, Excel(vookup, pivot table, VBA)
+        screened companies according to the demand of the marketing department.
+        - Analyzed 100+ semiconductor industry reports, performed a 74-page overviews 
+        and further investigated the most profitable sub-field in the industry and its 
+        correlation with simulation. 
+        - Visualized the project through Excel and Tableau and clarified 8,848 
+        priority target customer companies to marketing department.
+        - Conducted research on market size, value chain, competitive environment of 
+        30+ interested industries and present reports.
+    - role: Marketing Analyst Intern
+      time: Apr.2020 - Feb.2021
+      company: SavvyPro Education
       details: |
-        - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
-        - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%.
-            
-    - role: Quant Investment Intern
-      time: Jul 2021 - Aug 2021
-      company: Galaxy Jinhui Securities Asset Management
+        - Discovered and analyzed trends from collected 1000+ qualitative data to 
+        assess the potential sales of services.
+        - Provided statistics support to make strategies which doubled the amount of 
+        read and retweet on promotion of social media.
+    - role: IELTS Tutor
+      time: Jun.2018 - Aug.2018 & Jun.2019 - Sep.2019
+      company: New Oriental Education & Technology Group Inc
       details: |
-        - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
-        - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%
-            
-
+        - Collected students’ information to make teaching plans for the IELTS Program.
+        - Delivered prepared lessons, exerciser, examination to students including 
+        listening, speaking, reading and writing.
+    - role: Vice President
+      time: Aug 2020 - Jun 2021                        
+      company: Chinese Children Hope Offered（ECCHO）
+      details: |
+        - Developed and executed marketing strategies based on evolving market needs back with 
+        statistical information sourced through analytical initiatives.
+        - Coordinated with internal and external stakeholders on an international scale to 
+        effectively carry out marketing initiatives with demonstrated success in achieving set KPIs.
+        - Provided analytical findings by identifying key data attributes and 
+        converting data to insights for growth and scaling opportunities.
+        
 projects:
     title: Projects
     intro: >
-        Below are some of the significant academic and internship projects undertaken:
+      
     assignments:
-      - title: Private Housing Starts Forecast
-        link: ""  # Update this with the actual link if available
-        tagline: "Employed ARIMA and LSTM models to develop predictive models for housing starts."
+      - title: Diabetes and Depression Prediction, A Comparison of Various Machine Learning Techniques (Group Work)
+        link: "https://drive.google.com/file/d/1FaQCDzNKvVViknqpNF_s4hxz8ZMiDK6m/view?usp=sharing"
+        tagline: "Employed logistic regression, neural network, and XGBoost models to attain precise predictions, advancing the landscape of proactive healthcare interventions."
+
+      - title: Machine Learning for Human Movement Classification Using Wearable Sensors (Group Work)
+        link: "https://drive.google.com/file/d/1gYnI8H6_ORBfmb0uHSU_DCqHM6zRo6Pq/view?usp=sharing"
+        tagline: "Developed machine learning algorithms for classifying human movements based on high-frequency sensor data from wearable devices, employing recurrent neural network (RNN) and long short-term memory (LSTM) models."
+
+      - title: Neural Network vs. Traditional Models in ICU Death Prediction, A Comprehensive Analysis (Group Work)
+        link: "https://drive.google.com/file/d/10Z2zonS_IdAnL73s3ubHT9kxTVxuAplD/view?usp=sharing"
+        tagline: "Directed a research initiative evaluating the predictive effectiveness of a neural network model versus traditional methods (logistic regression and Bernoulli Naïve Bayes classifier) in forecasting ICU mortality. The project focused on meticulous feature curation and tackled class imbalance, offering a nuanced insight into the performance of each model."
+        
+      - title: Integrated Analysis of Cardiovascular Health Metrics, Predictive Modeling and Regression Insights (Group Work)
+        link: "https://drive.google.com/file/d/1UiuNTjCJfao3sSDLwnH_e_QWm8q7fOVK/view?usp=sharing"
+        tagline: "Led a comprehensive research project on cardiovascular health, addressing three key questions related to mortality prediction, stroke risk factors, and average glucose levels using logistic and linear regression models."
+        
+      - title: Exploring Obesity Risk Factors, KNN Classification and K-Means Clustering on a Large Public Health Dataset (Group Work)
+        link: "https://drive.google.com/file/d/1eyILRc9pPOFuoKdSzv2mMNzc0ghjM6sU/view?usp=sharing"
+        tagline: "Spearheaded a comprehensive obesity research project utilizing KNN classification and K-Means clustering on a Canadian public health dataset, revealing nuanced insights into the predictive factors and clustering patterns related to BMI, with a focus on gender-stratified analyses."
+        
+      - title: Attorneys and Clients Data Analysis for American Bar Association with NLP (Group Work)
+        link: "https://drive.google.com/file/d/1hdqCiZ1ZMOrZW6cvTNGUFDAZM8U5_Ozh/view?usp=drive_link"
+        tagline: "Constructed sentiment analysis and demographic analysis to provide actionable insights and recommendations to the ABA, aiming to enhance communication between clients and attorneys, and optimize human resource allocation."
+        
+      - title: Exploration of A Relationship Between Recall and White Matter (Individual)
+        link: "https://drive.google.com/file/d/1-oIlASWROcSlqnJ0u3vkUbu-3yhBSo3n/view?usp=share_link"
+        tagline: "Constructed robust, multiple linear regression models and linear mixed models to explore the relationship between structural and functional connectivity in the cingulum, fornix and episodic memory using fMRI and diffusion-weighted imaging in a sample of 40 healthy adults." 
+        
+      - title: Investigated Typing Speed of Youth on Mobile vs. Keyboards (Individual)
+        link: "https://drive.google.com/file/d/1owqZbcx2UEgINJGhwRMpIhZ-YU5MNFJ0/view?usp=share_link"
+        tagline: "Compared typing speed on mobile phones vs. physical keyboards using linear mixed models with 39 students in a 1-minute typing test, and discovered positive correlations between mobile typing speed and English level, age, and physical typing speed."
+        
+      - title: Tweet Emotion Recognition with TensorFlow (Guided Project)
+        link: "https://colab.research.google.com/drive/1S9KIRDYfZ7HRmA9R-MUDAbzHAKR0Qb_U?usp=sharing"
+        tagline: "Created a recurrent neural network and train it on a tweet emotion dataset to learn to recognize emotions in tweets and evaluated the model with confusion matrix."
+       
+      - title: Store Sales Forecast (Individual)
+        link: ""
+        tagline: "Constructed ARIMA and seasonal ARIMA models to forecast sales of various products in following 15 days in different locations based on the dataset with 1,064,613 observations."
+        
+      - title: Atmospheric Carbon Dioxide Concentration Forecast (Individual)
+        link: "https://drive.google.com/file/d/1MxzXbJlEvynetEAU_UKuiMLy4CR8pqV6/view?usp=sharing"
+        tagline: "Constructed seasonal ARIMA models with the purpose to forecast trends in atmospheric carbon dioxide concentrations for 10 months."
+        
+      - title: Data Analysis for Marketing Campaign (Group Work)
+        link: "https://drive.google.com/file/d/1LZ6faDKZWAtD3YNKmgMd-BPCxQ-1f0Ru/view?usp=sharing"
+        tagline: "Constructed generalized linear mixed model to verify the authenticity of feedback and specifically quantify the severity of the problem."
+        
+      - title: Data Analysis of Pursuing Higher Education (Individual)
+        link: "https://drive.google.com/file/d/1UOyCdyLU-EkN3R-l6J5LhxOobU6dU-zk/view?usp=sharing"
+        tagline: "Constructed a model of the influence of different neighborhoods on thoughts of students pursuing higher education."
+
+      - title: Smartphone Addiction dnd Drug Addiction (Individual)
+        link: "https://drive.google.com/file/d/11TaCzquj2bygPf0_Ajhp_MeAQ_aKZ__e/view?usp=sharing"
+        tagline: "Explored whether smartphone addiction has similar characteristics similar to drug addiction."
+
+      - title: 2025 Canada Election Forecast (Group Work)
+        link: "https://drive.google.com/file/d/1awfCqTdxlvhgePu8gICVXJFbpZw2bLyr/view?usp=sharing"
+        tagline: "Constructed logistic regression model and post-stratification with the purpose to forecast polling and tracking popularity of election candidates and members of governments"
+
+      - title: Explore The Impact of Smoking on The Probability of Stroke (Individual)
+        link: "https://drive.google.com/file/d/1UdTXWq9u51w7sDkB9Eji-yKPfBo2_fOf/view?usp=sharing"
+        tagline: "Investigated which of the factors/variables in the provided dataset best explains the variation observed in probability of stroke."
+
+      - title: Data Analysis of Toronto Health (Individual)
+        link: "https://drive.google.com/file/d/1Kh0gQBu6Jjhd4AWPXih_wH80yY_6yF7p/view?usp=sharing"
+        tagline: "Explored the linear relationship between premature mortality and other information such as teenage pregnancy in Toronto communities."
+        
+      - title: Dognition Market Data Analysis with Tableau (Individual)
+        link: "https://drive.google.com/file/d/1fovRk5R01WjJPnZDrib45Dy3c0QcMtCm/view"
+        tagline: "Investigated and visualized market data through Tableau and converted raw data to meaningful insights to make professional recommendations."       
+      
+      - title: 2022 Summer Make Insurance Better Bootcamp (Group Work)
+        link: "https://drive.google.com/file/d/178GaIoQ9ytNfiPkQPjuBj2LBHnV7f4zU/view?usp=sharing"
+        tagline: "Explored measures with design thinking to make insurance more attractive and lucrative by working in a group."       
+
+
+    #title: Publications
+    #intro: |
+      #You can list your publications in this section. Lorem ipsum dolor sit
+      #amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      #bibendum fringilla a eu lectus.
+    #papers:
+      #- title: The Art of Computer Programming
+        #link: "#"
+        #authors: Donald E. Knuth
+        #conference: Addison-Wesley, 1968
+
+     #- title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        #link: "#"
+        #authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        #conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      #- title: A syntax directed compiler for Algol 60
+        #link: "#"
+        #authors: Edgar T. Irons
+        #conference: "Comm. ACM 4 (1961), 51–55"
 
 skills:
-    title: Skills & Proficiency
+    title: Skills &amp; Proficiency
+
     toolset:
-      - name: Python
+      - name: R
         level: 90%
 
-      - name: R
+      - name: Python
         level: 80%
         
-      - name: C++
-        level: 70%
-        
       - name: SQL
+        level: 75%
+        
+      - name: SAS
+        level: 75%
+
+      - name: Tableau
+        level: 75%
+      
+      - name: VBA
         level: 60%
 
-      - name: MATLAB
-        level: 50%
+      #- name:
+        #level:
 
-      - name: SAS
-        level: 40%
+#footer: >
+    #Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
