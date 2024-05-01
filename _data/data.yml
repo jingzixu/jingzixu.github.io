@@ -1,6 +1,6 @@
 sidebar:
-    about: true
-    education: false
+    about: True
+    education: False
 
     # Profile information
     name: Jingzi Xu
@@ -44,16 +44,13 @@ career-profile:
        - Skilled in advanced programming languages, including Python, R, and C++, and familiar with industry-standard tools such as Bloomberg and Thomson Reuters.
 
 education:
-    title: Education
-    info:
-      - degree: Master of Engineering in Financial Engineering
-        university: Cornell University, College of Engineering
-        time: Aug 2023 - Dec 2024
-        details: |
+    - degree: Master of Engineering in Financial Engineering
+      university: Cornell University, College of Engineering
+      time: Aug 2023 - Dec 2024
+      details: |
           - GPA：3.74
           - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.
           
-
       - degree: B.S. in Applied and Computational Mathematics
         university: University of Southern California
         time: Aug 2021 - May 2023
@@ -69,28 +66,26 @@ education:
           - Courses included Optimization, Object-Oriented Programming in C++.
 
 experiences:
-    title: Experiences
-    info:
-      - role: Bond Portfolio Analysis Intern
-        time: Dec 2023 - Jan 2024
-        company: PICC Asset Management
-        details: |
-            - Risk Assessment: Conducted risk assessments on fixed-income securities, contributing to the development of strategies that potentially reduce portfolio volatility by 12%.
-            - Portfolio Construction: Drafted a portfolio plan which consist of convertible bonds, national bonds and provincial bonds, fulfilling clients’ investment targets.
+    - role: Practicum Student
+      time: Oct 2023 - Present
+      company: Lunenfeld-Tanenbaum Research Institute Sinai Health
+      details: | 
+        - Risk Assessment: Conducted risk assessments on fixed-income securities, contributing to the development of strategies that potentially reduce portfolio volatility by 12%.
+        - Portfolio Construction: Drafted a portfolio plan which consist of convertible bonds, national bonds and provincial bonds, fulfilling clients’ investment targets.
             
-      - role: Quantitative Analyst Intern
-        time: Nov 2023 - Dec 2023
-        company: Icarus Fund
-        details: |
-            - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
-            - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%.
+    - role: Quantitative Analyst Intern
+      time: Nov 2023 - Dec 2023
+      company: Icarus Fund
+      details: |
+        - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
+        - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%.
             
-      - role: Quant Investment Intern
-        time: Jul 2021 - Aug 2021
-        company: Galaxy Jinhui Securities Asset Management
-        details: |
-            - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
-            - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%
+    - role: Quant Investment Intern
+      time: Jul 2021 - Aug 2021
+      company: Galaxy Jinhui Securities Asset Management
+      details: |
+        - Financial Modeling: Utilized Python (Pandas, NumPy, Matplotlib) to refine financial models (DCF, Financial Multiples), analyzing 5+ years of data from Bloomberg and Thomson Reuters. Employed regression analysis and ML models (Random Forest, Gradient Boosting) to enhance stock selection algorithms, boosting algorithmic trading performance by 15%.
+        - Industry Research: Conducted in-depth research, reviewing 50+ reports from McKinsey, Bloomberg, and sector-specific sources. Presented data-driven insights to senior management, utilizing advanced data visualization, leading to strategies that outperformed market benchmarks by 10%
             
 
 projects:
