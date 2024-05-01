@@ -47,17 +47,17 @@ education:
           - GPA：3.74
           - Specializing in Stochastic Calculus, Fixed Income Securities, and Monte Carlo Simulation.
           
-      - degree: B.S. in Applied and Computational Mathematics
-        university: University of Southern California
-        time: Aug 2021 - May 2023
-        details: |
+    - degree: B.S. in Applied and Computational Mathematics
+      university: University of Southern California
+      time: Aug 2021 - May 2023
+      details: |
           - Magna Cum Laude, GPA：3.79
           - Relevant coursework included Mathematical Finance and Econometrics.
 
-      - degree: Mathematics and Economics
-        university: University of Maryland, College Park
-        time: Aug 2018 - May 2021
-        details: |
+    - degree: Mathematics and Economics
+      university: University of Maryland, College Park
+      time: Aug 2018 - May 2021
+      details: |
           - Dean’s List, GPA: 3.875.
           - Courses included Optimization, Object-Oriented Programming in C++.
 
