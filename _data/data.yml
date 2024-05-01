@@ -1,6 +1,6 @@
 sidebar:
-    about: True
-    education: False
+    about: true
+    education: false
 
     # Profile information
     name: Jingzi Xu
