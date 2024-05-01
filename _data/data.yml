@@ -18,7 +18,6 @@ sidebar:
       info:
         - idiom: Mandarin
           level: Native
-
         - idiom: English
           level: Professional
   
@@ -26,13 +25,9 @@ sidebar:
       title: Interests
       info:
         - item: Clarinet
-
         - item: Hiking
-
         - item: Cycling
-
         - item: Tennis
-
         - item: Formula One
 
 
