@@ -21,14 +21,14 @@ sidebar:
         - idiom: English
           level: Professional
   
-  interests:
-      title: Interests
-      info:
-        - item: Clarinet
-        - item: Hiking
-        - item: Cycling
-        - item: Tennis
-        - item: Formula One
+     interests:
+       title: Interests
+       info:
+         - item: Clarinet
+         - item: Hiking
+         - item: Cycling
+         - item: Tennis
+         - item: Formula One
 
 
 career-profile:
